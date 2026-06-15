@@ -12,17 +12,6 @@
         "--socket=wayland",
         "--socket=pulseaudio"
     ],
-    "cleanup" : [
-        "/include",
-        "/lib/pkgconfig",
-        "/man",
-        "/share/doc",
-        "/share/gtk-doc",
-        "/share/man",
-        "/share/pkgconfig",
-        "*.la",
-        "*.a"
-    ],
     "modules" : [
         "python3-requests.json",
         {
@@ -33,15 +22,12 @@
                 {
                     "type" : "git",
                     "url" : "https://gitlab.gnome.org/dean36963/nextgroove",
-                    "tag" : "0.4.1-rc1"
+                    "tag" : "0.5.0-rc2"
                 }
             ],
             "config-opts" : [
                 "--libdir=lib"
             ]
         }
-    ],
-    "build-options" : {
-        "env" : {        }
-    }
+    ]
 }
