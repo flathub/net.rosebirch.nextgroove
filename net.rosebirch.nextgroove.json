@@ -1,5 +1,6 @@
 {
     "id" : "net.rosebirch.nextgroove",
+    "end-of-life": "This application is no longer maintained.",
     "runtime" : "org.gnome.Platform",
     "runtime-version" : "49",
     "sdk" : "org.gnome.Sdk",
